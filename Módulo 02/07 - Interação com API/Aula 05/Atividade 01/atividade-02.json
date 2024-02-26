@@ -1,0 +1,16 @@
+ [
+    {
+        "timeA": "equipe A",
+        "timeB": "equipe B",
+        "resultado" : "2-1",
+        "img": "imagem1.png"
+
+    },
+
+    {
+        "timeA": "equipe C",
+       "timeB" : "equipe D",
+       " resultado": "0-0",
+        "imG": "imagem2.jpg"
+    }
+]

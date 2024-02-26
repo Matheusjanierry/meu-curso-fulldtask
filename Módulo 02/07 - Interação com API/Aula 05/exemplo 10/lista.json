@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "img":"https://a-static.mlcdn.com.br/1500x1500/lava-e-seca-samsung-11kg-3-em-1-agua-quente-e-fria-wd11t504dbx/magazineluiza/234654800/14d4f216d93f5c96c7638e78f17082b3.jpg",
+        "nome":"Lava e Seca Samsung 11kg",
+        "descricao": "produtos top",
+        "valorComDesconto":4417,
+        "valorSemDesconto":4699
+    },
+    {
+        "id": 2,
+        "img":"https://a-static.mlcdn.com.br/800x560/notebook-samsung-book-np550xda-kt1br-intel-core-i3-4gb-1tb-156-full-hd-led-windows-10/magazineluiza/135311200/ecbbeb0b5dc2888000574687fc255f0f.jpg",
+        "nome":"Notebook Samsung Book",
+        "descricao": "produtos top",
+        "valorComDesconto":2714,
+        "valorSemDesconto":3015
+    },
+    {
+        "id": 3,
+        "img":"https://a-static.mlcdn.com.br/800x560/geladeira-refrigerador-electrolux-frost-free-inox-duplex-371l-dfx41/magazineluiza/013080800/4385618d23f22e08ec6705f568b65014.jpg",
+        "nome":"Geladeira/Refrigerador Electrolux",
+        "descricao": "produtos top",
+        "valorComDesconto":3071,
+        "valorSemDesconto":3199
+    },
+    {
+        "id": 4,
+        "img":"https://a-static.mlcdn.com.br/800x560/guarda-roupa-casal-hera-8-portas-e-4-gavetas-rufato/modernamobilia2/131/58b22b772a1630c4e0e193db77b9d493.jpeg",
+        "nome":"Guarda Roupa Casal Hera 8 Portas e 4 Gavetas Rufato",
+        "descricao": "produtos top",
+        "valorComDesconto":1199,
+        "valorSemDesconto":1399
+    },
+    {
+        "id": 5,
+        "img":"https://a-static.mlcdn.com.br/800x560/mesa-de-jantar-6-cadeiras-retangular-freijo-e-off-dj-moveis-copenhague/magazineluiza/238000200/b116e6f8d09c6e820c7a96eef50f9cc1.jpg",
+        "nome":"Mesa de Jantar 6 Cadeiras Retangular",
+        "descricao": "produtos top",
+        "valorComDesconto": 1681,
+        "valorSemDesconto": 1788
+    },
+    {
+        "id": 6,
+        "img":"https://a-static.mlcdn.com.br/800x560/painel-para-tv-ate-60-polegadas-ripado-com-nichos-dj-moveis-bento-freijo-off-white/djmoveisindustria/27160222/38beb0569b1162f093b9c25b44c71955.jpeg",
+        "nome":"Painel para TV até 60 Polegadas",
+        "descricao": "produtos top",
+        "valorComDesconto": 324.00,
+        "valorSemDesconto": 359.55
+    }
+]
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

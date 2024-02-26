@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(197, 186, 172,0.369);
+    text-align: center;
+    font-size:larger;
+}
+.card{
+    border: 1px solid rgb(8, 8, 8,0.205);;
+    width: 450px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgb(0,0, 0,0.584);
+    margin-bottom: 12px;
+    text-align: center;
+    justify-content: space-around;
+    cursor: pointer;
+
+
+}
+.lista-card{
+    display: flex;
+    flex-wrap: wrap;
+    text-decoration: underline;
+
+}
+.cor{
+    text-align: center;
+    background-color: burlywood;
+}
