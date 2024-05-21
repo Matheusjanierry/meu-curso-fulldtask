@@ -5,7 +5,8 @@ class aluno(models.Model):
     data_nascimento = models.DateField()
     idade = models.IntegerField()
     CPF = models.IntegerField()
-    telefone = models.IntegerField
-    nomes_dos_pais = models.CharField
-    data_da_matricula = models.DateTimeField
-    
+    telefone = models.IntegerField()
+    nomes_dos_pais = models.CharField(max_length=50)
+    data_da_matricula = models.DateTimeField()
+
+
