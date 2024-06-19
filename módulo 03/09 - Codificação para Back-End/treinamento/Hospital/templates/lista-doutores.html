@@ -1,0 +1,15 @@
+<html>
+<body>
+    <a href+"{% {% url "pg_inicial" %}">voltar para Home</a>
+        <p> Lista de Doutores Contratados abaixo</p>
+
+        <Ul>
+            {% for paciente in Doutores %}
+            <li>
+                Nome: {{ y.nome}} | especialização: {{y.especializacoo}} | CRM: {{ y.crm}}
+            </li>
+            {% endfor %}
+
+        </ul>
+</body>
+</html>
