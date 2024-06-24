@@ -12,6 +12,6 @@ class produtos(models.Model):
         nome_do_produto = models.CharField(max_length=50)
         marcar_do_produto= models.CharField(max_length=50)
         descricao= models.TextField()
-        valor_do_produto=models.FloatField()
+        valor_produto=models.DecimalField()
 
         
