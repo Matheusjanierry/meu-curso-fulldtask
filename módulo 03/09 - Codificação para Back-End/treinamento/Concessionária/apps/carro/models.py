@@ -13,6 +13,20 @@ class Cadastro(models.Model):
     def __str__(self):
         return self.nome
     
-
+class vendedor(models.Model):
+    nome_vendedor = models.CharField(max_length=100)
+    matricula = models.IntegerField()
+    email = models.EmailField()
+    contato = models.IntegerField()
+    def __str__(self):
+        return self.nome_vendedor
+    
+class cliente(models.Model):
+    nome_cliente = models.CharField(max_length=100)
+    cpf = models.IntegerField()
+    email = models.EmailField()
+    contato = models.IntegerField()
+    def __str__(self):
+        return self.nome_cliente
     
     
