@@ -13,5 +13,5 @@ class taca(models.Model):
     instrumento = models.CharField()
 
     def __str__(self):
-        return self. dono.nome + "taca"
+        return self. dono.nome + " | taca"
     

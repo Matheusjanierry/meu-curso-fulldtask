@@ -6,11 +6,22 @@
             Pagina de Cadastro 
         </p>
         <h3>
+            <a href="{% url "Pagina_index" %}">Página inicial</a>
+        </h3>
 
 {% endblock %}
 
 {%  block conteudo  %}
-    <div class= "lista_"
+    <div class= "lista_cadastro">
+        {%  for Cadastro in cadastros %}
+            <div class="card">
+                <p> {{Cadastro.nome}}</p>
+                <p> {{Cadastro.email}}</p>
+            </div>
+
+
+        {% endfor %}
+    </div>
 
 
 

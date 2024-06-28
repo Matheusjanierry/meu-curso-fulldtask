@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+{%  block titulo %}
+    
+        <p> 
+            Pagina de Cliente
+        </p>
+        
+
+{% endblock %}
+
+{%  block conteudo  %}
+        <a href="{% url "Pagina_index" %}">Página inicial</a>
+    <ul>
+        {%  for Clientes in Cliente %}
+          <l1>
+                {{Clientes.nome_cliente}} -  {{Clientes.email}} -  {{Clientes.cpf}} -  {{Clientes.contato}}
+          </l1>
+
+        {% endfor %}
+    </ul>
+    
+
+
+
+{% endblock  %}

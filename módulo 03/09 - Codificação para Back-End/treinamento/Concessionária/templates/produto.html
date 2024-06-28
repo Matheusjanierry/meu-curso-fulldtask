@@ -1,0 +1,18 @@
+{% load static %}
+<html>
+    <link rel="stylesheet" type="text/css" href={% static "style.css"%}>
+    <body>
+        <P>
+            Pagina de produto
+        </p>
+        {%  for produto in produtos %}
+        <div class="lista_card">
+            <p> 
+                {{produto.nome_produto}} - {{produto.valor_produto}}
+                <img src="{{produto.foto.url}}" height="100" width="100">
+            </p> 
+        </div>
+         {% endfor %}
+       
+    </body>
+</html>

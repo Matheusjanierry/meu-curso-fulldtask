@@ -3,3 +3,14 @@ body{
     background-repeat: no-repeat;
     background-image: url("https://www.bing.com/images/search?view=detailV2&ccid=3ecX1omS&id=A22DCA0125B624C6198F3C4238DEEF31AC8EDF14&thid=OIP.3ecX1omSnrr9EzF0_yunZAHaEK&mediaurl=https%3a%2f%2fget.wallhere.com%2fphoto%2fcar-Lamborghini-Gallardo-supercars-sunset-red-cars-Lamborghini-vehicle-1473923.jpg&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.dde717d689929ebafd133174ff2ba764%3frik%3dFN%252bOrDHv3jhCPA%26pid%3dImgRaw%26r%3d0&exph=2160&expw=3840&q=imagem+de+carro&simid=607986848173854340&FORM=IRPRST&ck=1E0D2C663D1178ECF6CF9D1B6992BBD0&selectedIndex=0&itb=0");
 }
+p{
+    color: yellow;
+}
+a{
+    padding: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    box-shadow: 6px 6px 8px rgb(167, 184, 175);
+    
+}

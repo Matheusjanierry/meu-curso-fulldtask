@@ -9,10 +9,10 @@ def linkCadastro(request):
     return render(request, 'cadastro.html', {'cadastro': lista_cadastro })
 def linkCliente(request):
     lista_cliente = cliente.objects.all()
-    return render(request, 'cliente.html', {'cadastro': lista_cliente})
+    return render(request, 'cliente.html', {'cliente': lista_cliente})
 def linkVendedor(request):
     lista_vendedor = vendedor.objects.all()
-    return render(request, 'cadastro.html', {'cadastro': lista_vendedor})
+    return render(request, 'vendedor.html', {'vendedor': lista_vendedor})
 def linkProduto(request):
     lista_produto = Produto.objects.all()
-    return render(request, 'cadastro.html', {'cadastro': lista_produto})
+    return render(request, 'produto.html', {'produto': lista_produto})

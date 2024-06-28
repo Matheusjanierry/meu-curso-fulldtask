@@ -1,0 +1,9 @@
+<html>
+    <body>
+        <h3> Formulario de abencoado </h3>
+
+        <form mathod="post">
+             {% csrf_token %}
+             {{ Formulario.as_p}}
+             <buttom type="submit"> salvar </buttom>
+             <buttom type="reset"> 
