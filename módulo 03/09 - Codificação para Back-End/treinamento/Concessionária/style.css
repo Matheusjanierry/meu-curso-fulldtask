@@ -12,5 +12,29 @@ a{
     text-decoration: none;
     color: white;
     box-shadow: 6px 6px 8px rgb(167, 184, 175);
+    border: 1px solid#333;
+    border-radius: 10px;
+    width: fit-content;
+    height: fit-content;
     
+}
+.titulo{
+    margin: 15px;
+}
+.lista-card{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 15px;
+    row-gap: 15px;
+}
+.card{
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+    border: 2px solid#000;
+    box-shadow: 6px 6px 8px rgb(167, 184, 175);
+    flex-direction: column;
+    padding: 10px;
+    align-items: center;
+    color: white;
 }
